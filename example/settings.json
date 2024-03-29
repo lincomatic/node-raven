@@ -1,9 +1,14 @@
 {
-	"serialPath"    : "/dev/serial/by-id/usb-Rainforest_RFA-Z106-RA-PC_RAVEn_v2.3.21-if00-port0",
-	"mqttHost"      : "127.0.0.1",
-	"mqttPort"      : 1883,
-	"log"           : false,
-	"powerPath"     : "/house/meter/power/demand",
-	"energyInPath"  : "/house/meter/energy/in",
-	"energyOutPath" : "/house/meter/energy/out"
+    "serialPath"    : "/dev/serial/by-id/usb-Prolific_Technology_Inc._USB-Serial_Controller_D-if00-port0",
+    "mqttUrl"      : "mqtt://127.0.0.1:1883",
+    "mqttUser"      : "user",
+    "mqttPass"      : "pass",
+    "influxUrl"     : "http://localhost:8086",
+    "influxBucket"  : "sce",
+    "influxId"      : 0,
+    "log"           : false,
+    "powerPath"     : "sce/power",
+    "energyInPath"  : "sce/energy_in",
+    "energyOutPath" : "sce/energy_out",
+    "energyNetPath" : "sce/energy_net"
 }

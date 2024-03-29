@@ -6,7 +6,7 @@
 var options = require('./settings'),
 	raven = require("./raven_mqtt.js");
 
-var TRACE = true;
+var TRACE = false;//true;
 
 var meem = new raven.RavenMqtt(options);
 
